@@ -5,6 +5,10 @@
  * prevent page reload after form submit
  * step-2: get money to be added to the account balance
  * step-3: get the pin Number provided 
+ * step-4: Verify the Pin number(this not ideal OR right way)
+ * step-5: get the current balance
+ * 
+ * 
  */
 
 // add money to the account 
@@ -21,6 +25,15 @@ const addMoneyInput = document.getElementById('input-add-money').value
  // step-3: get the pin Number provided 
 const pinNumberInput = document.getElementById('input-pin-number').value
     console.log(pinNumberInput);
+
+// step-4: Verify the Pin number(this not ideal OR right way)
+//wrong way to validate pin Number
+if(pinNumberInput === '1234'){
+    console.log('Adding money to your account');  
+    //step-5: get the current balance
+}else{
+    alert('Failed to add money! Please try again')
+}
     
     
 })
