@@ -18,7 +18,9 @@ event.preventDefault()
 const addMoneyInput = document.getElementById('input-add-money').value
     console.log(addMoneyInput);
 
-    // step-3: get the pin Number provided 
-    const pinNumberInput = docu
+ // step-3: get the pin Number provided 
+const pinNumberInput = document.getElementById('input-pin-number').value
+    console.log(pinNumberInput);
+    
     
 })
