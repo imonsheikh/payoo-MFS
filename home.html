@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Home Page</title>
+
+        <!-- daisyUI 4.12.10 CSS file + Tailwind CSS CDN script: -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+   <main class="flex justify-center h-screen items-center">
+    <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-3">
+
+           <!-- available balance starts  -->
+            <div>
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-value">9400</div>
+                      <div class="stat-desc">Available Balance:</div>
+                    </div>
+                  </div>
+                </div>
+           <!-- available balance ends  -->
+
+                <div class="divider"></div>
+
+                <!-- user action button starts  -->
+                <div>
+                    <button class="btn btn-lg">Add Money</button>
+                    <button class="btn btn-lg">Cash Out</button>
+                </div>
+                <!-- user action button ends  -->
+
+                <div class="divider"></div>
+
+                <!-- Add Money start  -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" placeholder="email" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Password</span>
+                        </label>
+                        <input type="password" placeholder="password" class="input input-bordered" required />
+                        <label class="label">
+                          <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                      </div>
+                      <div class="form-control mt-6">
+                        <button class="btn btn-primary">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                <!-- Add Money ends  -->
+
+
+
+                
+
+          </div>
+        </div>
+      </div>
+   </main>
+</body>
+</html>
