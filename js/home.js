@@ -7,6 +7,7 @@
  * step-3: get the pin Number provided 
  * step-4: Verify the Pin number(this not ideal OR right way)
  * step-5: get the current balance
+ * step-5: addMoneyInput to the balance 
  * 
  * 
  */
@@ -31,6 +32,14 @@ const pinNumberInput = document.getElementById('input-pin-number').value
 if(pinNumberInput === '1234'){
     console.log('Adding money to your account');  
     //step-5: get the current balance
+    const balance = document.getElementById('account-balance').innerText
+    console.log(balance);
+
+    // step-5: addMoneyInput to the balance 
+    const newBalance = balance + addMoneyInput
+    console.log(newBalance);
+    
+
 }else{
     alert('Failed to add money! Please try again')
 }
