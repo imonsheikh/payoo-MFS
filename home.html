@@ -40,7 +40,7 @@
                 <div class="divider"></div>
 
                 <!-- Add Money start  -->
-                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
@@ -66,7 +66,32 @@
                   </div>
                 <!-- Add Money ends  -->
 
+            <!-- cash out starts  -->
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Amount</span>
+                    </label>
 
+                    <input id="input-cash-out" type="text" placeholder="amount" class="input input-bordered" required />
+
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Pin Number</span>
+                    </label>
+
+                    <input id="input-cash-out-pin" type="password" placeholder="Pin number" class="input input-bordered" autocomplete="off"  required />
+                    
+                   
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="btn-cash-out" class="btn btn-primary">Cash Out</button>
+                  </div>
+                </form>
+              </div>
+            <!-- cash out ends  -->
 
 
 
@@ -77,6 +102,9 @@
 
 
    <!-- home javasctipt file anta  -->
-    <script src="./js/home.js"></script>
+    <!-- <script src="./js/home.js"></script> -->
+
+    <!-- add money recape file anta  -->
+    <script src="./js/add-money-recap.js"></script>
 </body>
 </html>
